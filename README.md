@@ -8,7 +8,6 @@ A production-ready, fully responsive multi-page corporate website designed for *
 
 1. **Responsive Multi-Page Structure**:
    - Four detailed pages: `index.html` (Home), `about.html` (About), `services.html` (Services), and `contact.html` (Contact).
-   
 2. **Advanced Navigation**:
    - Sticky glassmorphic navbar that switches style on scroll.
    - Dynamic active page indicator matching the current URL.
@@ -57,6 +56,36 @@ Responsive Company Website/
 
 ---
 
+# Screenshots
+
+## Home Page (Light Mode)
+
+![Home Light](assets/screenshots/01_home_hero_light.png)
+
+## Home Page (Dark Mode)
+
+![Home Dark](assets/screenshots/02_home_hero_dark.png)
+
+## Statistics Counter
+
+![Stats](assets/screenshots/03_stats_counter_active.png)
+
+## Mobile Navigation
+
+![Mobile Navigation](assets/screenshots/04_mobile_navigation.png)
+
+## Services Page
+
+![Services](assets/screenshots/05_services_grid.png)
+
+## Form Validation
+
+![Validation](assets/screenshots/06_validation_errors.png)
+
+## Success Toast
+
+![Success Toast](assets/screenshots/07_success_toast.png)
+
 ## 🚀 How to Run and Test
 
 1. Clone or download the project files into a local folder.
@@ -65,4 +94,4 @@ Responsive Company Website/
 4. Click on navigation links in the header or footer to browse between pages.
 5. Resize the browser or test on a mobile device to inspect responsive layouts and mobile menus.
 6. Navigate to `contact.html` to test input error validations and success toasts on submission.
-"# Responsive-Company-Website" 
+   "# Responsive-Company-Website"
