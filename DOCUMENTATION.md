@@ -85,7 +85,7 @@ The website features an **Organic Modern Green & Coral** color palette. Styling 
 
 ---
 
-## 📸 Screenshots Blueprint
+## 📸 Screenshots Blueprints
 
 To fulfill the submission requirements, capture the following screenshots:
 
