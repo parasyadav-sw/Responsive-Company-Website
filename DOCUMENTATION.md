@@ -111,22 +111,3 @@ To fulfill the submission requirements, capture the following screenshots:
     ![Success Toast](assets/screenshots/07_success_toast.png)
 
 ---
-
-## 📹 Demo Video Recording Script
-
-### Technical Setup:
-
-- **Resolution**: 1080p, 16:9 aspect ratio.
-- **Duration**: ~90 to 120 seconds.
-- **Microphone**: High-quality audio, free of background noise.
-
-### Narration Storyboard:
-
-| Timestamp       | Visual Action                                                                                                                   | Narration Script                                                                                                                                                                                                                                                                                        |
-| :-------------- | :------------------------------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **0:00 - 0:15** | Start on `index.html` (Light Mode). Hover over links. Scroll down slightly.                                                     | _"Hello, in this video I will walk you through the TechNova Solutions corporate website. The site features a fully responsive multi-page layout built using semantic HTML5, custom CSS variables, and vanilla JS."_                                                                                     |
-| **0:15 - 0:35** | Click the theme toggler in the header. Toggle it back and forth.                                                                | _"Here we have an integrated theme engine. It toggles custom CSS color tokens instantly, switches the moon and sun icons, and persists the setting using localStorage so the preference is remembered upon refresh."_                                                                                   |
-| **0:35 - 0:50** | Scroll down to the stats counters and the choosing panel.                                                                       | _"As we scroll down, you'll see scroll-reveal animations. They are powered by the Intersection Observer API. The stats counter also triggers dynamically, counting up from 0 to the target metrics once it enters the viewport."_                                                                       |
-| **0:50 - 1:10** | Resize the browser window to mobile view. Open the drawer menu. Close it by clicking the overlay.                               | _"The site is fully responsive. Shrinking the viewport reveals our mobile navigation drawer menu. Clicking the menu icon slides out the panel, activates a backdrop overlay, and locks background scrolling for optimal mobile UX."_                                                                    |
-| **1:10 - 1:40** | Navigate to the Contact page. Click "Submit" immediately. Type an invalid email, then correct it. Submit and display the toast. | _"On the Contact page, we have a real-time form validation engine. If I attempt to submit the form empty, it scrolls the user to the first invalid field. As I enter inputs, it checks formatting like email structures and phone digit lengths. On valid submission, a custom success toast pops up."_ |
-| **1:40 - 1:50** | Click on 'About' and 'Services' briefly, then return to home.                                                                   | _"This project demonstrates clean code practices, semantic structure, responsive grid layouts, and optimization for SEO and performance. Thank you for watching!"_                                                                                                                                      |
