@@ -85,17 +85,30 @@ The website features an **Organic Modern Green & Coral** color palette. Styling 
 
 ---
 
-## 📸 Screenshots Blueprint
+## 📸 Screenshots Blueprints
 
 To fulfill the submission requirements, capture the following screenshots:
 
 1.  **`01_home_hero_light.png`**: The Home page hero section in Light Mode (showing the clean layout, primary green buttons, and floating badges).
+    ![Home Light](assets/screenshots/01_home_hero_light.png)
+
 2.  **`02_home_hero_dark.png`**: The Home page hero section in Dark Mode (capturing the neon coral highlights and the deep background).
+    ![Home Dark](assets/screenshots/02_home_hero_dark.png)
+
 3.  **`03_stats_counter_active.png`**: The statistics section after numbers have animated to their target values.
+    ![Statistics Counter](assets/screenshots/03_stats_counter_active.png)
+
 4.  **`04_mobile_navigation.png`**: Mobile view emulation (using Chrome DevTools) showing the drawer menu and the backdrop overlay active.
+    ![Mobile Navigation](assets/screenshots/04_mobile_navigation.png)
+
 5.  **`05_services_grid.png`**: The Services page layout showcasing the grid cards and custom icons.
+    ![Services Grid](assets/screenshots/05_services_grid.png)
+
 6.  **`06_validation_errors.png`**: The Contact form showing active validation errors (red borders and error labels).
+    ![Validation Errors](assets/screenshots/06_validation_errors.png)
+
 7.  **`07_success_toast.png`**: The Contact form showing the green success toast notification banner.
+    ![Success Toast](assets/screenshots/07_success_toast.png)
 
 ---
 
