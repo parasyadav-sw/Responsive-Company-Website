@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechNova Solutions | Premium Custom Software & Cloud Consulting</title>
+  <meta name="description" content="TechNova Solutions delivers production-grade custom software engineering, DevOps automation, cloud architecture, and UI/UX services for modern enterprises.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==========================================
+       Header / Navigation Section
+       ========================================== -->
+  <header class="header" id="mainHeader">
+    <div class="container navbar">
+      <a href="index.html" class="logo" id="logoLink">
+        <svg class="logo-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect width="16" height="16" x="4" y="4" rx="2"/><rect width="6" height="6" x="9" y="9" rx="1"/><path d="M9 1v3"/><path d="M15 1v3"/><path d="M9 20v3"/><path d="M15 20v3"/><path d="M20 9h3"/><path d="M20 15h3"/><path d="M1 9h3"/><path d="M1 15h3"/></svg>
+        <span>TechNova</span>
+      </a>
+      
+      <nav class="nav-menu" id="navMenu">
+        <a href="index.html" class="nav-link" id="navHome">Home</a>
+        <a href="about.html" class="nav-link" id="navAbout">About</a>
+        <a href="services.html" class="nav-link" id="navServices">Services</a>
+        <a href="contact.html" class="nav-link" id="navContact">Contact</a>
+        <div class="nav-cta">
+          <a href="contact.html" class="btn btn-primary" id="headerQuoteBtn" style="padding: 0.6rem 1.25rem; font-size: 0.875rem;">Get a Quote</a>
+        </div>
+      </nav>
+
+      <div class="nav-controls">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle Light and Dark Mode">
+          <!-- Sun Icon (for dark mode) -->
+          <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="M4.93 4.93l1.41 1.41"/><path d="M17.66 17.66l1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="M6.34 17.66l-1.41 1.41"/><path d="M19.07 4.93l-1.41 1.41"/></svg>
+          <!-- Moon Icon (for light mode) -->
+          <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+        </button>
+        
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle Navigation Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================
+       Hero Section
+       ========================================== -->
+  <section class="hero" id="homeHero">
+    <div class="container hero-grid">
+      <div class="hero-content reveal">
+        <h1 class="hero-title">
+          Modern Software for <span class="gradient-text">High-Growth Startups</span>
+        </h1>
+        <p class="hero-description">
+          TechNova Solutions engineers premium, production-ready custom applications, automates cloud infrastructure, and designs responsive, visually-stunning user experiences.
+        </p>
+        <div class="hero-buttons">
+          <a href="contact.html" class="btn btn-primary" id="heroCtaPrimary">
+            Get Started
+            <i data-lucide="arrow-right" class="btn-icon"></i>
+          </a>
+          <a href="services.html" class="btn btn-secondary" id="heroCtaSecondary">
+            Explore Services
+          </a>
+        </div>
+      </div>
+      <div class="hero-image-wrapper reveal reveal-delay-2">
+        <div class="hero-image-bg"></div>
+        <img src="assets/hero_dashboard.png" alt="TechNova Solutions Dashboard Interface Mockup" class="hero-illustration" width="800" height="600">
+        
+        <!-- Floating Badges -->
+        <div class="floating-card floating-card-1">
+          <div class="feature-icon-container" style="margin-bottom: 0; width: 2.25rem; height: 2.25rem; border-radius: var(--radius-sm);">
+            <i data-lucide="shield-check" style="width: 1.2rem; height: 1.2rem;"></i>
+          </div>
+          <div>
+            <h4 style="font-size: 0.85rem; font-weight: 700;">Secure Infrastructure</h4>
+            <p style="font-size: 0.75rem; color: var(--text-muted);">99.9% Cloud Uptime</p>
+          </div>
+        </div>
+
+        <div class="floating-card floating-card-2">
+          <div class="feature-icon-container" style="margin-bottom: 0; width: 2.25rem; height: 2.25rem; border-radius: var(--radius-sm); background-color: var(--accent-light); color: var(--accent);">
+            <i data-lucide="zap" style="width: 1.2rem; height: 1.2rem;"></i>
+          </div>
+          <div>
+            <h4 style="font-size: 0.85rem; font-weight: 700;">Agile Velocity</h4>
+            <p style="font-size: 0.75rem; color: var(--text-muted);">Continuous Delivery</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       Stats/Counter Section
+       ========================================== -->
+  <section class="stats" id="statsSection">
+    <div class="container stats-grid">
+      <div class="stats-item">
+        <div class="stats-number" data-target="10" data-suffix="+">0</div>
+        <div class="stats-title">Years Experience</div>
+      </div>
+      <div class="stats-item">
+        <div class="stats-number" data-target="250" data-suffix="+">0</div>
+        <div class="stats-title">Projects Delivered</div>
+      </div>
+      <div class="stats-item">
+        <div class="stats-number" data-target="99" data-suffix="%">0</div>
+        <div class="stats-title">Client Satisfaction</div>
+      </div>
+      <div class="stats-item">
+        <div class="stats-number" data-target="50" data-suffix="+">0</div>
+        <div class="stats-title">Tech Experts</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       Features Section (3 cards)
+       ========================================== -->
+  <section class="section-bg-surface" id="featuresSection">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Core Offerings</span>
+        <h2 class="section-title">Designed for Scale, Built for Performance</h2>
+        <p class="section-subtitle">We design and develop custom solutions leveraging cutting-edge cloud architectures, robust security frameworks, and interactive UI design.</p>
+      </div>
+
+      <div class="features-grid">
+        <!-- Feature 1 -->
+        <div class="feature-card reveal reveal-delay-1">
+          <div class="feature-icon-container">
+            <i data-lucide="code-2"></i>
+          </div>
+          <h3>Enterprise Engineering</h3>
+          <p>We build secure, robust backend systems and intuitive responsive frontends using the latest programming languages and agile methodology guidelines.</p>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="feature-card reveal reveal-delay-2">
+          <div class="feature-icon-container" style="background-color: var(--accent-light); color: var(--accent);">
+            <i data-lucide="cloud"></i>
+          </div>
+          <h3>Cloud &amp; DevOps Scale</h3>
+          <p>Automate deployment pipelines and manage serverless resources. We optimize infrastructure on AWS, Google Cloud, and Microsoft Azure to cut down operational overhead.</p>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="feature-card reveal reveal-delay-3">
+          <div class="feature-icon-container" style="background-color: rgba(116, 198, 157, 0.1); color: var(--mint);">
+            <i data-lucide="shield-alert"></i>
+          </div>
+          <h3>Cybersecurity Audits</h3>
+          <p>Protect user records and corporate assets. We perform end-to-end security audits, penetration testing, compliance checks, and secure codebase patches.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       Why Choose Us Section
+       ========================================== -->
+  <section id="whyChooseSection">
+    <div class="container choose-grid">
+      <div class="choose-image-container reveal">
+        <img src="assets/choose_us.png" alt="Cloud Network Infrastructure Illustration" class="choose-img" width="800" height="600">
+        
+        <!-- Experience Badge -->
+        <div class="experience-badge">
+          <span class="experience-years">10+</span>
+          <span class="experience-text">Years of Corporate Innovation</span>
+        </div>
+      </div>
+
+      <div class="choose-content reveal reveal-delay-2">
+        <span class="section-tag">Value Proposition</span>
+        <h2>Why Tech Leaders Partner with TechNova</h2>
+        <p class="choose-desc">
+          We combine tech expertise with business acumen. We build robust systems that solve business problems and prepare you for future growth.
+        </p>
+        
+        <div class="choose-list">
+          <!-- Item 1 -->
+          <div class="choose-item">
+            <div class="choose-icon-box">
+              <i data-lucide="check" style="width: 1.1rem; height: 1.1rem;"></i>
+            </div>
+            <div>
+              <h4>Agile Scrum Methodologies</h4>
+              <p>We work in sprints to ensure transparency, frequent feedback loops, and on-time project delivery.</p>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="choose-item">
+            <div class="choose-icon-box" style="background-color: var(--accent-light); color: var(--accent);">
+              <i data-lucide="check" style="width: 1.1rem; height: 1.1rem;"></i>
+            </div>
+            <div>
+              <h4>Dedicated Tech Talent</h4>
+              <p>Work directly with senior engineers, cloud architects, and UI/UX designers handpicked for your domain.</p>
+            </div>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="choose-item">
+            <div class="choose-icon-box" style="background-color: rgba(116, 198, 157, 0.1); color: var(--mint);">
+              <i data-lucide="check" style="width: 1.1rem; height: 1.1rem;"></i>
+            </div>
+            <div>
+              <h4>Secure-by-Design Auditing</h4>
+              <p>From the first line of code, we enforce security protocols to guard your applications against cyber vulnerabilities.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       Testimonial Cards Section (NEW)
+       ========================================== -->
+  <section class="section-bg-surface" id="testimonialsSection">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Client Feedback</span>
+        <h2 class="section-title">Trusted by Modern Tech Leaders</h2>
+        <p class="section-subtitle">Read how TechNova Solutions assists high-growth startups and established brands scale their development pipelines.</p>
+      </div>
+
+      <div class="testimonials-grid">
+        <!-- Testimonial 1 -->
+        <div class="testimonial-card reveal reveal-delay-1">
+          <svg class="testimonial-quote-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M11.189 2v3.433H8.061C8.061 7.029 9.38 8.35 11.189 8.35V11.783C7.362 11.783 4.25 8.67 4.25 4.844v-.357A2.488 2.488 0 0 1 6.739 2h4.45ZM20.939 2v3.433h-3.128c0 1.596 1.319 2.917 3.128 2.917V11.783C17.112 11.783 14 8.67 14 4.844v-.357A2.488 2.488 0 0 1 16.489 2h4.45Z"/></svg>
+          <p class="testimonial-text">
+            "TechNova redesigned our cloud pipeline, enabling continuous deployments. Our latency went down 40% and our DevOps team now saves hours every week."
+          </p>
+          <div class="testimonial-user">
+            <div class="testimonial-avatar" style="background: linear-gradient(135deg, var(--accent) 0%, var(--accent-hover) 100%);">AL</div>
+            <div>
+              <h4 class="testimonial-name">Alex Laurent</h4>
+              <p class="testimonial-role">CTO, CloudVibe Solutions</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="testimonial-card reveal reveal-delay-2">
+          <svg class="testimonial-quote-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M11.189 2v3.433H8.061C8.061 7.029 9.38 8.35 11.189 8.35V11.783C7.362 11.783 4.25 8.67 4.25 4.844v-.357A2.488 2.488 0 0 1 6.739 2h4.45ZM20.939 2v3.433h-3.128c0 1.596 1.319 2.917 3.128 2.917V11.783C17.112 11.783 14 8.67 14 4.844v-.357A2.488 2.488 0 0 1 16.489 2h4.45Z"/></svg>
+          <p class="testimonial-text">
+            "The engineering quality TechNova delivered was outstanding. They refactored our legacy SaaS dashboard using responsive web layout and modern security protocols."
+          </p>
+          <div class="testimonial-user">
+            <div class="testimonial-avatar" style="background: linear-gradient(135deg, var(--primary) 0%, var(--primary-hover) 100%);">SM</div>
+            <div>
+              <h4 class="testimonial-name">Sarah Mercer</h4>
+              <p class="testimonial-role">Product VP, FinScale Tech</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 3 -->
+        <div class="testimonial-card reveal reveal-delay-3">
+          <svg class="testimonial-quote-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M11.189 2v3.433H8.061C8.061 7.029 9.38 8.35 11.189 8.35V11.783C7.362 11.783 4.25 8.67 4.25 4.844v-.357A2.488 2.488 0 0 1 6.739 2h4.45ZM20.939 2v3.433h-3.128c0 1.596 1.319 2.917 3.128 2.917V11.783C17.112 11.783 14 8.67 14 4.844v-.357A2.488 2.488 0 0 1 16.489 2h4.45Z"/></svg>
+          <p class="testimonial-text">
+            "We required an OWASP security audit under a very tight timeline. The TechNova security team delivered comprehensive reviews and actionable fixes within days."
+          </p>
+          <div class="testimonial-user">
+            <div class="testimonial-avatar" style="background: linear-gradient(135deg, var(--secondary) 0%, var(--primary) 100%);">DH</div>
+            <div>
+              <h4 class="testimonial-name">David Hanes</h4>
+              <p class="testimonial-role">Director of Security, OmniSec</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       Call to Action (CTA) Section
+       ========================================== -->
+  <section class="cta-banner" id="consultationCta">
+    <div class="container cta-content reveal">
+      <h2>Accelerate Your Business Strategy Today</h2>
+      <p>Consult with our lead architects to discuss requirements, feasibility studies, and receive a tailored technical blueprint.</p>
+      <div class="cta-buttons">
+        <a href="contact.html" class="btn btn-accent" id="ctaBannerPrimary">
+          Schedule Consultation
+          <i data-lucide="calendar" class="btn-icon"></i>
+        </a>
+        <a href="about.html" class="btn btn-secondary" id="ctaBannerSecondary" style="color: #FFFFFF; background-color: rgba(255,255,255,0.06); border-color: rgba(255,255,255,0.12);">
+          Meet the Team
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       Global Footer Section
+       ========================================== -->
+  <footer class="footer" id="mainFooter">
+    <div class="container footer-grid">
+      <div>
+        <a href="index.html" class="footer-logo" id="footerLogo">
+          <svg class="logo-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect width="16" height="16" x="4" y="4" rx="2"/><rect width="6" height="6" x="9" y="9" rx="1"/><path d="M9 1v3"/><path d="M15 1v3"/><path d="M9 20v3"/><path d="M15 20v3"/><path d="M20 9h3"/><path d="M20 15h3"/><path d="M1 9h3"/><path d="M1 15h3"/></svg>
+          <span>TechNova</span>
+        </a>
+        <p class="footer-desc">
+          Empowering enterprises with cutting-edge custom software development, robust cloud solutions, and strategic digital consulting.
+        </p>
+        <div class="footer-social-links">
+          <a href="#" class="footer-social-icon" aria-label="LinkedIn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+          <a href="#" class="footer-social-icon" aria-label="Twitter">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg>
+          </a>
+          <a href="#" class="footer-social-icon" aria-label="GitHub">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+          </a>
+        </div>
+      </div>
+      <div>
+        <h4 class="footer-heading">Quick Links</h4>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="services.html">Services</a>
+          <a href="contact.html">Contact Us</a>
+        </div>
+      </div>
+      <div>
+        <h4 class="footer-heading">Contact Details</h4>
+        <div class="footer-contact-info">
+          <div class="footer-contact-item">
+            <svg class="footer-contact-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>100 Innovation Boulevard, Suite 400, Tech City, TC 94016</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg class="footer-contact-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            <span>info@technovasolutions.com</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg class="footer-contact-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <span>+1 (800) 555-0199</span>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h4 class="footer-heading">Newsletter</h4>
+        <div class="footer-newsletter">
+          <p>Subscribe to our newsletter for tech trends, insights, and updates.</p>
+          <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Subscribed successfully!'); this.reset();">
+            <input type="email" placeholder="Your Email" class="newsletter-input" required aria-label="Newsletter Email Input">
+            <button type="submit" class="newsletter-btn" aria-label="Subscribe Button">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <div class="footer-copy">
+        &copy; 2026 TechNova Solutions. All rights reserved.
+      </div>
+      <div class="footer-bottom-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Sitemap</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================
+       Scripts Initialization
+       ========================================== -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="script.js"></script>
+</body>
+</html>
