@@ -78,24 +78,6 @@ The website features an **Organic Modern Green & Coral** color palette. Styling 
 
 ---
 
-## 🎤 Live Walkthrough Q&A Preparation
-
-Be prepared to answer these questions during your live code review:
-
-### Q1: Why did you use `IntersectionObserver` instead of standard scroll event listeners?
-> **Answer:** Standard scroll listeners fire continuously on every single pixel scrolled, which causes layout thrashing and degrades frame rates. `IntersectionObserver` executes asynchronously and offloads calculations to the browser engine, only invoking our callback when elements actually cross our visibility threshold. This ensures 60 FPS scrolling performance.
-
-### Q2: How did you implement dark mode persistence?
-> **Answer:** We read the theme key from `localStorage`. When the user clicks the theme toggler, we toggle the `.dark` class on the `<body>` element and save the state as either `dark` or `light`. On page reload, the script checks `localStorage` first; if empty, it falls back to the user's system preference using `window.matchMedia`.
-
-### Q3: What happens to the mobile menu if a user rotates their device or resizes their desktop browser while the drawer is open?
-> **Answer:** In `initMobileMenu()`, we added a resize listener. If the viewport width exceeds `768px` while the mobile menu is open, the `closeMenu()` helper runs. This removes scroll locks, resets body classes, and hides the overlay, preventing layout breakage when transitioning between mobile and desktop viewports.
-
-### Q4: How is client-side form validation optimized for UX?
-> **Answer:** Instead of screaming errors while the user is typing, validations trigger when they focus out of a field (`blur`). If an error is found, we show it instantly and keep updating it on `input` so they get immediate visual validation as they fix it. If they click submit with errors, the window automatically scrolls to the first invalid field, which is extremely helpful on mobile devices.
-
----
-
 ## 📸 Screenshots Blueprint
 
 To fulfill the submission requirements, capture the following screenshots:
